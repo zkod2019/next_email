@@ -1,0 +1,23 @@
+{
+  "name": "node_intro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node .dist/index.js",
+    "dev": "npx ts-node src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.2"
+  }
+}
